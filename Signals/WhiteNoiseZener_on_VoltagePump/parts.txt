@@ -1,0 +1,33 @@
+L1 = WCLA3225V1-101-R
+T1 = DMN10H170SVTQ
+D1 = US1DWF
+C1 = TLJR106M010R2000
+C2, C3 = CGA4J3X7S2A105M125AE
+
+DD1 (logic driver) = MC74VHC1GT50 (Mouser)
+DD2 (buffer amplifier, virtual ground) = OPA2356AIDR
+
+DD3 (shottky pair) = BAT54SLT1G
+
+D2 (zener/tvs) = SMF12A
+
+
+unused
+
+----------------------------------
+power block for heater controller
+
+
+FS12-20-C2          2
+SW-T3-4B-A-A3-S2    2
+SW-T3-1A-A-A3-S1
+P6KE16CA            4
+1N5246B
+HDL10S              5
+BA05CC0FP
+LM337LZ
+AP7375-33W5
+QJ6030LH4TP
+
+
+

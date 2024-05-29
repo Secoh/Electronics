@@ -1,0 +1,121 @@
+--- Bill of Materials ---
+
+Ref.	Mfg.	Part No.	Description
+C1	--	--	capacitor, 100nF
+C2	--	--	capacitor, 100nF
+C3	--	--	capacitor, 100nF
+C7	--	--	capacitor, 100nF
+C8	--	--	capacitor, 100pF
+
+C4	--	--	capacitor, 150nF
+C5	--	--	capacitor, 3.3µF
+C6	--	--	capacitor, 10nF
+
+D1.1	Rohm	TFZV16B	diode
+D1.2	Rohm	TFZV16B	diode
+D2.1	Rohm	RRE07VSM6S	diode
+D2.2	Rohm	RRE07VSM6S	diode
+D3.1	Rohm	RB218T-30NZ	diode
+D3.2	Rohm	RB218T-30NZ	diode
+D3.3	Rohm	RB218T-30NZ	diode
+D4.1	--	D	diode
+D4.2	--	D	diode
+D5.1	Rohm	RB218T-30NZ	diode
+D5.2	Rohm	RB218T-30NZ	diode
+
+D6	(unknown)	Q4025R6	(unknown 3rd party model)
+
+DD2	(unknown)	PC817B	(unknown 3rd party model)
+DD4	(unknown)	PC817B	(unknown 3rd party model)
+
+DD1.1	(unknown)	MAX4230	(unknown 3rd party model)
+DD1.2	(unknown)	MAX4230	(unknown 3rd party model)
+DD3.1	(unknown)	MAX4230	(unknown 3rd party model)
+DD3.2	(unknown)	MAX4230	(unknown 3rd party model)
+
+DD3.3	(unknown)	MAX4230	(unknown 3rd party model)
+DD3.4	(unknown)	MAX4230	(unknown 3rd party model)
+
+DD5	(unknown)	MAX4230	(unknown 3rd party model)
+
+R1	--	--	resistor, 3.3M
+R15	--	--	resistor, 3.3M
+R16	--	--	resistor, 3.3M
+R26	--	--	resistor, 3.3M
+R29	--	--	resistor, 3.3M
+R35	--	--	resistor, 3.3M
+
+R2	--	--	resistor, 270K
+R9	--	--	resistor, 270K
+
+R3	--	--	resistor, 680K
+
+R4	--	--	resistor, 10K  r5, r7
+R10	--	--	resistor, 10K
+R12	--	--	resistor, 10K
+R14	--	--	resistor, 10K
+R17	--	--	resistor, 10K
+R18	--	--	resistor, 10K
+R19	--	--	resistor, 10K
+R22	--	--	resistor, 10K
+R32	--	--	resistor, 10K
+R33	--	--	resistor, 10K
+R27	--	--	resistor, 10K
+R28	--	--	resistor, 10K
+R40	--	--	resistor, 10K
+
+R5_R6	--	--	resistor, 22K =12k
+R7_R8	--	--	resistor, 22K =12k
+R34	--	--	resistor, 12K
+
+R11	--	--	resistor, 1.5K
+R13	--	--	resistor, 1.5K
+
+R20	--	--	resistor, 330
+
+R21	--	--	resistor, 1K
+R25	--	--	resistor, 1K
+R38	--	--	resistor, 1K
+R42	--	--	resistor, 1K
+
+R23	--	--	resistor, 27K
+R36	--	--	resistor, 27K
+
+R24	--	--	resistor, 10
+
+R30	--	--	resistor, 3.3K
+R31	--	--	resistor, 3.3K
+
+R37	--	--	resistor, 220
+
+R39	--	--	resistor, 47
+
+R41	--	--	resistor, 680m
+
+R_Load	--	--	resistor, 100
+
+Shunt_R1	--	--	resistor, 1M
+
+T1	Rohm	2SA1037AK	bipolar transistor
+T3	Rohm	2SA1037AK	bipolar transistor
+
+T2	AOS	AO3423	MOSFET
+
+T4	International Rectifier	IRFHS8342	MOSFET
+
+T5	Rohm	2SC2412K	bipolar transistor
+T6	Rohm	2SC2412K	bipolar transistor
+
+T7	Zetex	FZT849	bipolar transistor
+
+Test_R1.1	--	--	resistor, 1m
+Test_R1.2	--	--	resistor, 1m
+Test_R2	--	--	resistor, 1m
+Test_R3	--	--	resistor, 1m
+Test_R4	--	--	resistor, 1m
+Test_R5	--	--	resistor, 1m
+Test_R6.1	--	--	resistor, 1m
+Test_R6.2	--	--	resistor, 1m
+Test_R6.3	--	--	resistor, 1m
+Test_R6.4	--	--	resistor, 1m
+Test_R7	--	--	resistor, 1m
