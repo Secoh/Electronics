@@ -95,7 +95,7 @@
 		(uuid "6f72049e-63ae-4a05-9224-3e1bc81c4862")
 		(at 70.104 66.04 -90)
 		(property "Reference" "J1-B1"
-			(at 0.762 -2.794 270)
+			(at 0.762 -2.794 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -108,7 +108,7 @@
 			)
 		)
 		(property "Value" "SWD-5"
-			(at 0 -2.794 270)
+			(at 0 -2.794 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "98b1a714-23cb-452a-8dab-f6a711163659")
@@ -863,20 +863,6 @@
 				(bold yes)
 			)
 			(justify left bottom mirror)
-		)
-	)
-	(gr_text "WayWayWay"
-		(at 79.248 63.5 90)
-		(layer "F.SilkS")
-		(uuid "6e945060-e747-442d-a092-5d9345f34039")
-		(effects
-			(font
-				(size 0.635 0.635)
-				(thickness 0.1524)
-				(bold yes)
-				(italic yes)
-			)
-			(justify right bottom)
 		)
 	)
 	(segment

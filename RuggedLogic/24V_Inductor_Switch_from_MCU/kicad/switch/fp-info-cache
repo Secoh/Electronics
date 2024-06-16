@@ -1,4 +1,4 @@
-23128430540797479
+23137011720491914
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87192,12 +87192,47 @@ APC-817-SL
 4
 4
 Secoh
+D_SOD-123F_hand_soldering
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+Secoh
 D_SOD-123F_inverted_polarity
 D_SOD-123F
 D_SOD-123F
 0
 2
 2
+Secoh
+OPB-616
+
+
+0
+5
+5
+Secoh
+SOT-23_Mirrored_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+Secoh
+conn_edge_hdr_pin_3_spc_1.27
+
+
+0
+3
+3
+Secoh
+pad_single_005x036in_for_USB_A
+
+
+0
+1
+1
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
