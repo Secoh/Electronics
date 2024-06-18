@@ -601,6 +601,18 @@
     [
       "2c4ac472-9624-49c1-b7f6-74967546e3f5",
       "Root"
+    ],
+    [
+      "9d0b096d-343f-4fe8-a433-bb0aee5dc0f6",
+      "Inset A - USB MCU"
+    ],
+    [
+      "b4cd3d0d-2c28-4d1a-b5ce-b0f6d285c299",
+      "Inset B - Power"
+    ],
+    [
+      "51d632f0-0073-4075-9c8b-29ec88c06dbb",
+      "Inset C - Noise Generator"
     ]
   ],
   "text_variables": {}
