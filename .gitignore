@@ -5,3 +5,5 @@
 *.pdf
 *.plt
 *.emf
+/MCU/D11/starter_d11_rev2/production
+/MCU/D11/starter_d11_rev2/fabrication-toolkit-options.json
