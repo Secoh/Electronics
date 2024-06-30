@@ -80,20 +80,20 @@
 		)
 	)
 	(net 0 "")
-	(net 1 "Net-(J3-Pin_3)")
-	(net 2 "Net-(J3-Pin_2)")
+	(net 1 "{slash}GND_I")
+	(net 2 "{slash}IN")
 	(net 3 "Net-(D1-+)")
-	(net 4 "Net-(J3-Pin_1)")
+	(net 4 "{slash}3V3")
 	(net 5 "Net-(C3-Pad1)")
 	(net 6 "unconnected-(J1-Pin_2-Pad2)")
 	(net 7 "Net-(D5-D+)")
 	(net 8 "Net-(T2-B)")
 	(net 9 "Net-(D5-C-Pad4)")
 	(net 10 "Net-(D5-D-)")
-	(net 11 "24V_a")
-	(net 12 "OUT")
-	(net 13 "GNO-O")
-	(net 14 "24V")
+	(net 11 "{slash}24V_O")
+	(net 12 "{slash}OUT")
+	(net 13 "{slash}GND_O")
+	(net 14 "{slash}24V")
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1f14f145-3c69-40af-b921-559c58145213")
@@ -131,6 +131,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -143,6 +144,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -155,6 +157,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -301,7 +304,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 2 "Net-(J3-Pin_2)")
+			(net 2 "{slash}IN")
 			(pintype "passive")
 			(uuid "b1d8b1f5-c6bc-43f5-9d06-f8b0c562a746")
 		)
@@ -310,7 +313,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 1 "Net-(J3-Pin_3)")
+			(net 1 "{slash}GND_I")
 			(pintype "passive")
 			(uuid "4e1e74d3-30b7-4ef8-8683-3327de81f377")
 		)
@@ -363,6 +366,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -375,6 +379,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -387,6 +392,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -563,7 +569,7 @@
 			(size 1.15 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.217391)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "-")
 			(pintype "passive")
 			(uuid "cb93c1ef-d583-426d-9a44-53ca0b8508d5")
@@ -598,7 +604,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 0.414 1.96 360)
+			(at 0.414 1.96 0)
 			(layer "F.Fab")
 			(uuid "ac9d34c8-4fdb-4d7d-8cc9-3f496a84e309")
 			(effects
@@ -617,6 +623,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -629,6 +636,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -641,6 +649,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -772,7 +781,7 @@
 			(uuid "96ac6f71-d5f4-43c7-9845-0ebb9b8548d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dd7d167c-8bfc-41fd-b038-f8d6da59708c")
 			(effects
@@ -796,7 +805,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 4 "Net-(J3-Pin_1)")
+			(net 4 "{slash}3V3")
 			(pintype "passive")
 			(uuid "9846cb08-fa89-4f7b-8f86-4fd30cf41370")
 		)
@@ -819,7 +828,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "SMF36A"
-			(at -0.124 2.032 360)
+			(at -0.124 2.032 0)
 			(layer "F.SilkS")
 			(uuid "e638660e-2fbe-4d4a-a652-aba08aea7332")
 			(effects
@@ -830,7 +839,7 @@
 			)
 		)
 		(property "Value" "SMF36A"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "7acb2709-40dd-4932-a560-455c270d81ef")
 			(effects
@@ -849,6 +858,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -861,6 +871,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -873,6 +884,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1084,7 +1096,7 @@
 			(uuid "17f6ddfc-5e97-403f-b6b7-fe4f5cc2ce06")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.127 -1.905 360)
+			(at -0.127 -1.905 0)
 			(layer "F.Fab")
 			(uuid "304a4105-0ea6-4297-8b29-6dcd236432d0")
 			(effects
@@ -1099,7 +1111,7 @@
 			(size 1.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2272727273)
-			(net 13 "GNO-O")
+			(net 13 "{slash}GND_O")
 			(pinfunction "+")
 			(pintype "passive")
 			(uuid "3d72848b-87a6-4b6b-9bc3-ba9566f2499b")
@@ -1109,7 +1121,7 @@
 			(size 1.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2272727273)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "-")
 			(pintype "passive")
 			(uuid "15ad852d-3ee6-46ef-ac71-c77040e50c49")
@@ -1145,7 +1157,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 3.96 -4.62 360)
+			(at 3.96 -4.62 0)
 			(layer "F.Fab")
 			(uuid "b8db0dea-504b-47b9-acd5-a2f7ce83aa2a")
 			(effects
@@ -1164,6 +1176,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1176,6 +1189,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1188,6 +1202,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1573,7 +1588,7 @@
 			(uuid "df78c996-11ac-49b6-bbec-24d21005edeb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.96 -4.41 360)
+			(at 3.96 -4.41 0)
 			(layer "F.Fab")
 			(uuid "e742e545-ed23-4b48-9e40-7af08569d625")
 			(effects
@@ -1590,7 +1605,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.079114)
-			(net 14 "24V")
+			(net 14 "{slash}24V")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "ef194a18-4ad1-497b-9524-ad878c9586fb")
@@ -1612,7 +1627,7 @@
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "GNO-O")
+			(net 13 "{slash}GND_O")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "785ff11f-348a-42d1-89ca-e00a19f64114")
@@ -1666,6 +1681,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1678,6 +1694,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1690,6 +1707,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1845,7 +1863,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.212766)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pintype "passive")
 			(uuid "756c3a7a-c6b4-4c1e-8f12-e7245ba8c553")
 		)
@@ -1898,6 +1916,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1910,6 +1929,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1922,6 +1942,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2114,7 +2135,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "2SCR587D3"
-			(at -2.78 -4.063 360)
+			(at -2.78 -4.063 0)
 			(layer "F.SilkS")
 			(uuid "158214a9-e9e2-449d-a105-38e5c13fdcc4")
 			(effects
@@ -2125,7 +2146,7 @@
 			)
 		)
 		(property "Value" "2SCR587D3"
-			(at 1.0052 -4.6288 360)
+			(at 1.0052 -4.6288 0)
 			(layer "F.Fab")
 			(uuid "4fefb70e-09d7-41f3-be6a-3c8348c5f196")
 			(effects
@@ -2144,6 +2165,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2156,6 +2178,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2168,6 +2191,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2431,7 +2455,7 @@
 			(uuid "bbac52e8-1b2d-4523-9567-0d8844af4830")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dabe0a1c-2030-41a1-973c-a97178be45e5")
 			(effects
@@ -2456,7 +2480,7 @@
 			(size 3.05 2.75)
 			(layers "F.Cu" "F.Paste")
 			(roundrect_rratio 0.090909)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "a99a2b7c-7ece-4285-b541-4927ec24b57f")
@@ -2466,7 +2490,7 @@
 			(size 3.05 2.75)
 			(layers "F.Cu" "F.Paste")
 			(roundrect_rratio 0.090909)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "25818a3b-6130-437e-9a24-8616f11722e5")
@@ -2476,7 +2500,7 @@
 			(size 6.4 5.8)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.043103)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "cd36c056-3644-4cb3-aaa1-48720502b752")
@@ -2486,7 +2510,7 @@
 			(size 3.05 2.75)
 			(layers "F.Cu" "F.Paste")
 			(roundrect_rratio 0.090909)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "d662d750-122e-4bdf-99b0-cce643dba92b")
@@ -2496,7 +2520,7 @@
 			(size 3.05 2.75)
 			(layers "F.Cu" "F.Paste")
 			(roundrect_rratio 0.090909)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "ed8bd29f-ef08-4de4-a744-bb736d3b714c")
@@ -2506,7 +2530,7 @@
 			(size 2.2 1.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 13 "GNO-O")
+			(net 13 "{slash}GND_O")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "7efa2b7f-db4e-4cf1-8d59-535177b31f4b")
@@ -2560,6 +2584,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2572,6 +2597,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2584,6 +2610,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2956,7 +2983,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.079114)
-			(net 11 "24V_a")
+			(net 11 "{slash}24V_O")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "9d815b87-1604-4af4-819c-9726f2185883")
@@ -2967,7 +2994,7 @@
 			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "f8cba691-7042-4f54-bf4d-1d8294ee4e05")
@@ -2991,7 +3018,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "1N4007"
-			(at 5.947 0 360)
+			(at 5.947 0 0)
 			(layer "F.SilkS")
 			(uuid "3bd67f6b-4b87-418c-af94-2475b4097064")
 			(effects
@@ -3002,7 +3029,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "f0004c33-0751-4a93-8e6d-5298bcb3b009")
 			(effects
@@ -3021,6 +3048,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3033,6 +3061,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3045,6 +3074,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3256,7 +3286,7 @@
 			(uuid "3d8cf56c-6373-4128-af2c-36e844ff8b5e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.127 -1.905 360)
+			(at -0.127 -1.905 0)
 			(layer "F.Fab")
 			(uuid "df9a7c1a-60a2-47a0-b3db-bcb1c7c7590b")
 			(effects
@@ -3271,7 +3301,7 @@
 			(size 1.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2272727273)
-			(net 14 "24V")
+			(net 14 "{slash}24V")
 			(pinfunction "+")
 			(pintype "passive")
 			(uuid "3a573106-6b12-4777-b295-01d812674740")
@@ -3281,7 +3311,7 @@
 			(size 1.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2272727273)
-			(net 11 "24V_a")
+			(net 11 "{slash}24V_O")
 			(pinfunction "-")
 			(pintype "passive")
 			(uuid "12843daa-bcdc-465e-b659-c0676582bbd8")
@@ -3335,6 +3365,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3347,6 +3378,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3359,6 +3391,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3514,7 +3547,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 11 "24V_a")
+			(net 11 "{slash}24V_O")
 			(pintype "passive")
 			(uuid "efcd68ed-cb28-40a5-b6a6-026aebfc5312")
 		)
@@ -3537,7 +3570,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "2.2k"
-			(at -3.572 0.127 360)
+			(at -3.572 0.127 0)
 			(layer "F.SilkS")
 			(uuid "fe02e20e-feeb-441b-997a-4f1d8d262101")
 			(effects
@@ -3548,7 +3581,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 3.7752 -0.1016 360)
+			(at 3.7752 -0.1016 0)
 			(layer "F.Fab")
 			(uuid "dec617ad-9b42-4028-97b7-b25c00851bf7")
 			(effects
@@ -3567,6 +3600,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3579,6 +3613,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3591,6 +3626,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3722,7 +3758,7 @@
 			(uuid "42dd6e55-24fc-423d-be0b-4f1c4e206214")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d3de98f8-fa5f-4add-a5de-19a56b170858")
 			(effects
@@ -3746,7 +3782,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 11 "24V_a")
+			(net 11 "{slash}24V_O")
 			(pintype "passive")
 			(uuid "fef75c79-9c60-46c6-b7f3-f61a30de0925")
 		)
@@ -3799,6 +3835,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3811,6 +3848,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3823,6 +3861,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3969,7 +4008,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 13 "GNO-O")
+			(net 13 "{slash}GND_O")
 			(pintype "passive")
 			(uuid "e265feae-b7b7-476d-9e1c-6abacaba8def")
 		)
@@ -4031,6 +4070,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4043,6 +4083,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4055,6 +4096,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4210,7 +4252,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.208333)
-			(net 11 "24V_a")
+			(net 11 "{slash}24V_O")
 			(pintype "passive")
 			(uuid "7a437d59-8fff-421b-9267-a76b51bcd315")
 		)
@@ -4263,6 +4305,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4275,6 +4318,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4287,6 +4331,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4485,7 +4530,7 @@
 			(size 1.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 2 "Net-(J3-Pin_2)")
+			(net 2 "{slash}IN")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "a100458c-686c-415a-9e4c-3defc194a7e2")
@@ -4495,7 +4540,7 @@
 			(size 1.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 1 "Net-(J3-Pin_3)")
+			(net 1 "{slash}GND_I")
 			(pinfunction "S")
 			(pintype "passive")
 			(uuid "7e275ea3-813a-4457-bf9d-68f4b44c3b17")
@@ -4529,7 +4574,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "1N4007"
-			(at -0.127 -1.778 270)
+			(at -0.127 -1.778 -90)
 			(layer "F.SilkS")
 			(uuid "9e713c56-aeb0-4daf-a814-f9cf25f6a7ea")
 			(effects
@@ -4540,7 +4585,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 0 2.1 270)
+			(at 0 2.1 -90)
 			(layer "F.Fab")
 			(uuid "754393fa-0718-40a4-b123-637453d12172")
 			(effects
@@ -4559,6 +4604,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4571,6 +4617,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4583,6 +4630,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4794,7 +4842,7 @@
 			(uuid "15348195-dc09-46cc-a778-0229755c6015")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.127 -1.905 270)
+			(at -0.127 -1.905 -90)
 			(layer "F.Fab")
 			(uuid "25744ddc-436f-4481-940d-6cca5d8663e9")
 			(effects
@@ -4809,7 +4857,7 @@
 			(size 1.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2272727273)
-			(net 12 "OUT")
+			(net 12 "{slash}OUT")
 			(pinfunction "+")
 			(pintype "passive")
 			(uuid "7a1b56d2-817c-43ac-bdcb-bdff6ee03d39")
@@ -4819,7 +4867,7 @@
 			(size 1.9 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2272727273)
-			(net 11 "24V_a")
+			(net 11 "{slash}24V_O")
 			(pinfunction "-")
 			(pintype "passive")
 			(uuid "382c70ed-7aa2-46b1-b5f0-e827b953e89f")
@@ -4873,6 +4921,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4885,6 +4934,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4897,6 +4947,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5068,7 +5119,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(J3-Pin_1)")
+			(net 4 "{slash}3V3")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "58960205-a238-4c78-9d1a-1ece17c7fbea")
@@ -5079,7 +5130,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(J3-Pin_2)")
+			(net 2 "{slash}IN")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "583970e1-40ed-4b85-a7c4-d0bed2dff472")
@@ -5090,7 +5141,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "Net-(J3-Pin_3)")
+			(net 1 "{slash}GND_I")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "621ff4b8-ae22-4b5b-abd7-bd67f9655399")

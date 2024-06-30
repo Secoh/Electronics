@@ -966,13 +966,14 @@
 				)
 			)
 		)
-		(symbol "ltspice:Optos/PC817B"
+		(symbol "Secoh:0805/LED"
 			(pin_numbers hide)
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "D"
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -980,15 +981,276 @@
 				)
 			)
 			(property "Value" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Secoh:LED_0805"
+				(at 1.27 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.27 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0805/LED_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -4.445) (xy -1.016 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -3.302) (xy -1.016 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -3.429) (xy -1.524 -4.445) (xy -1.524 -3.937)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.286) (xy -1.524 -3.302) (xy -1.524 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -1.27) (xy 1.27 -3.81) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0805/LED_1_1"
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 0 270)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Secoh:0805/R"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.302 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+				(at 1.524 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0805/R_0_1"
+				(rectangle
+					(start 0.508 -2.54)
+					(end 2.032 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0805/R_1_1"
+				(pin passive line
+					(at 1.27 -1.27 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Secoh:Optos/PC817B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D5"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.0668 1.0668)
+					)
+				)
+			)
+			(property "Value" "PC817B"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.0668 1.0668)
+					)
+				)
+			)
+			(property "Footprint" "Secoh:APC-817-SL"
+				(at 0.508 -11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1007,6 +1269,33 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value2" "PC817 Igain=1.5m"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 9.144 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "model=\"PC817B\""
+				(at 0.508 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1052,7 +1341,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 -3.81) (xy -7.62 -3.81)
+						(xy -4.445 -3.81) (xy -8.89 -3.81)
 					)
 					(stroke
 						(width 0.1524)
@@ -1076,7 +1365,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 3.81) (xy -7.62 3.81)
+						(xy -4.445 3.81) (xy -8.89 3.81)
 					)
 					(stroke
 						(width 0.1524)
@@ -1244,7 +1533,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 3.81) (xy 7.62 3.81)
+						(xy 5.715 3.81) (xy 8.89 3.81)
 					)
 					(stroke
 						(width 0.1524)
@@ -1256,7 +1545,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -3.81) (xy 7.62 -3.81)
+						(xy 6.35 -3.81) (xy 8.89 -3.81)
 					)
 					(stroke
 						(width 0.1524)
@@ -1278,10 +1567,12 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Optos/PC817B_1_0"
 				(pin passive line
-					(at -7.62 3.81 0)
+					(at -8.89 3.81 0)
 					(length 0.0005)
-					(name "A"
+					(name "D+"
 						(effects
 							(font
 								(size 0 0)
@@ -1297,9 +1588,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -3.81 0)
+					(at -8.89 -3.81 0)
 					(length 0.0005)
-					(name "K"
+					(name "D-"
 						(effects
 							(font
 								(size 0 0)
@@ -1315,7 +1606,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 3.81 0)
+					(at 8.89 -3.81 180)
 					(length 0.0005)
 					(name "C"
 						(effects
@@ -1333,9 +1624,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -3.81 0)
+					(at 8.89 3.81 180)
 					(length 0.0005)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 0 0)
@@ -1352,13 +1643,14 @@
 				)
 			)
 		)
-		(symbol "ltspice:diode"
+		(symbol "Secoh:SOD-123/Diode"
 			(pin_numbers hide)
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "D"
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1366,15 +1658,15 @@
 				)
 			)
 			(property "Value" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Secoh:D_SOD-123F_hand_soldering"
+				(at 1.27 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1383,7 +1675,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1392,7 +1684,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1400,14 +1692,14 @@
 					(hide yes)
 				)
 			)
-			(symbol "diode_0_0"
+			(symbol "SOD-123/Diode_0_1"
 				(polyline
 					(pts
-						(xy 1.27 -5.08) (xy 1.27 -3.5052)
+						(xy 0 -3.81) (xy 2.54 -3.81)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1415,71 +1707,25 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.5052) (xy 0 -1.6002)
+						(xy 0 -1.27) (xy 2.54 -1.27) (xy 1.27 -3.81) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -3.5052) (xy 2.54 -1.6002)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.6002) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.5052) (xy 0 -3.5052)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.6002) (xy 0 -1.6002)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "SOD-123/Diode_1_1"
 				(pin passive line
-					(at 1.27 0 0)
-					(length 0.0005)
-					(name "+"
+					(at 1.27 -5.08 90)
+					(length 1.27)
+					(name "K"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1492,12 +1738,12 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -5.08 0)
-					(length 0.0005)
-					(name "-"
+					(at 1.27 0 270)
+					(length 1.27)
+					(name "A"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1511,13 +1757,13 @@
 				)
 			)
 		)
-		(symbol "ltspice:res"
-			(pin_numbers hide)
+		(symbol "Secoh:Zener/MMBZ52_SOT-23"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "D"
+				(at 5.08 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1525,15 +1771,15 @@
 				)
 			)
 			(property "Value" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+				(at 7.62 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1542,7 +1788,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1551,7 +1797,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 1.27 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1559,14 +1805,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "res_0_0"
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 2.54 -5.08)
-					)
+			(symbol "Zener/MMBZ52_SOT-23_0_1"
+				(rectangle
+					(start -1.27 0)
+					(end 3.81 -5.08)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1574,11 +1819,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy 2.54 -2.54)
+						(xy 2.667 -1.27) (xy -0.127 -1.27)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1586,68 +1831,34 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -7.62) (xy 1.27 -6.985)
+						(xy 2.54 -3.81) (xy 0 -3.81) (xy 1.27 -1.27) (xy 2.54 -3.81)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "Zener/MMBZ52_SOT-23_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -6.985) (xy 0 -6.35)
+						(xy 2.667 -1.27) (xy 2.667 -1.905)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.27 -1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at 1.27 -1.27 0)
-					(length 0.0005)
-					(name ""
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1662,10 +1873,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 1.27 -7.62 0)
-					(length 0.0005)
-					(name ""
+				(pin no_connect line
+					(at -3.81 -2.54 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1673,6 +1884,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 2.54 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1688,6 +1917,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a1eb488-7a26-41ee-900b-6efb043532f1")
+	)
+	(junction
+		(at 223.52 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "144a147d-2d5b-4d5f-8cb8-5d3053451825")
 	)
 	(junction
 		(at 58.42 74.93)
@@ -1735,13 +1970,7 @@
 		(at 38.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab56096a-cfce-495a-bfb2-4c85b05c9dcd")
-	)
-	(junction
-		(at 223.52 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69c006a-9f65-459f-867c-8f149b04cb2a")
+		(uuid "be2b55e9-d655-4ca7-8dc5-942398e95399")
 	)
 	(junction
 		(at 184.15 59.69)
@@ -1763,16 +1992,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 82.55) (xy 48.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000298d0-e16b-49bd-a780-0b7f6106ce81")
-	)
-	(wire
-		(pts
 			(xy 80.01 57.15) (xy 80.01 60.96)
 		)
 		(stroke
@@ -1783,16 +2002,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 69.85) (xy 200.66 69.85)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0262cbf6-54a3-486f-82d8-34d23fb6bea7")
-	)
-	(wire
-		(pts
 			(xy 58.42 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -1800,16 +2009,6 @@
 			(type default)
 		)
 		(uuid "08a86c06-3ee5-4138-84b0-747fb3455958")
-	)
-	(wire
-		(pts
-			(xy 204.47 77.47) (xy 200.66 77.47)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "08f4046e-6b1b-48a9-8f5a-8a14909ee411")
 	)
 	(wire
 		(pts
@@ -1830,16 +2029,6 @@
 			(type solid)
 		)
 		(uuid "0af03f3a-4962-4f9c-8fb9-024e26fe28eb")
-	)
-	(wire
-		(pts
-			(xy 38.1 68.58) (xy 38.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d6b9e1-2c53-4550-9771-79b0efa0e313")
 	)
 	(wire
 		(pts
@@ -1870,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "14381383-65ec-4670-ad00-2b975f18c192")
+	)
+	(wire
+		(pts
+			(xy 220.98 69.85) (xy 240.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c377ec-434c-4986-94a1-ef1763de291d")
 	)
 	(wire
 		(pts
@@ -1923,6 +2122,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 69.85) (xy 203.2 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2dfecaa1-83b8-40c8-855c-3e8d5220a589")
+	)
+	(wire
+		(pts
 			(xy 38.1 57.15) (xy 58.42 57.15)
 		)
 		(stroke
@@ -1930,16 +2139,6 @@
 			(type default)
 		)
 		(uuid "31fad418-9993-4ce9-941a-d9fcf0fcc3a9")
-	)
-	(wire
-		(pts
-			(xy 48.26 86.36) (xy 58.42 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38427209-7623-4b0e-a4ca-2b6105764874")
 	)
 	(wire
 		(pts
@@ -1990,6 +2189,16 @@
 			(type solid)
 		)
 		(uuid "3d0e39af-0efa-4e64-bdc7-f61408521241")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddf0cdf-55fc-4065-a7bd-524017f591fc")
 	)
 	(wire
 		(pts
@@ -2133,16 +2342,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 77.47) (xy 40.64 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84898b49-9969-4744-851f-0cd31e61bc95")
-	)
-	(wire
-		(pts
 			(xy 240.03 85.09) (xy 234.95 85.09)
 		)
 		(stroke
@@ -2170,16 +2369,6 @@
 			(type default)
 		)
 		(uuid "903dea33-9945-4598-ad78-6623a1d2726f")
-	)
-	(wire
-		(pts
-			(xy 219.71 69.85) (xy 240.03 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9266ee84-b626-4a86-945b-2d39c2a5547d")
 	)
 	(wire
 		(pts
@@ -2223,6 +2412,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 86.36) (xy 38.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f6139e-b677-454f-bfe4-fc2adb45fc43")
+	)
+	(wire
+		(pts
 			(xy 130.81 54.61) (xy 130.81 59.69)
 		)
 		(stroke
@@ -2240,6 +2439,16 @@
 			(type default)
 		)
 		(uuid "ab0e36f2-ca6a-49e4-942f-b0e656a02ef5")
+	)
+	(wire
+		(pts
+			(xy 200.66 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab62c3db-302b-4eba-b1ee-29c3618f0479")
 	)
 	(wire
 		(pts
@@ -2343,6 +2552,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 77.47) (xy 223.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbae61c-9a54-4706-8d95-e28f9d190080")
+	)
+	(wire
+		(pts
 			(xy 58.42 57.15) (xy 58.42 63.5)
 		)
 		(stroke
@@ -2363,13 +2582,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 77.47) (xy 219.71 77.47)
+			(xy 38.1 86.36) (xy 58.42 86.36)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "e0fce793-cd6a-4412-8ce1-b28bd074bdbd")
+		(uuid "df8ced3d-c87c-4db8-b04b-0508ae418833")
 	)
 	(wire
 		(pts
@@ -2492,7 +2711,7 @@
 		(uuid "fe20f2c6-c419-4776-bc9d-6a45e325bc73")
 	)
 	(symbol
-		(lib_id "ltspice:diode")
+		(lib_id "Secoh:0805/LED")
 		(at 190.5 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2501,7 +2720,7 @@
 		(dnp no)
 		(uuid "06adf07d-5b68-4e2f-910c-77d0a4d358ba")
 		(property "Reference" "D3"
-			(at 192.532 57.15 90)
+			(at 191.008 55.626 90)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -2510,7 +2729,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 193.04 62.23 90)
+			(at 191.516 56.388 90)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -2518,8 +2737,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 190.5 60.96 0)
+		(property "Footprint" "Secoh:LED_0805"
+			(at 201.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 60.96 0)
+			(at 193.04 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2756,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 60.96 0)
+			(at 193.04 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 182.88 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2606,7 +2825,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 182.88 68.58 0)
+			(at 184.404 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 68.58 0)
+			(at 184.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 68.58 0)
+			(at 184.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:diode")
+		(lib_id "Secoh:SOD-123/Diode")
 		(at 78.74 66.04 0)
 		(mirror x)
 		(unit 1)
@@ -2694,7 +2913,7 @@
 			)
 		)
 		(property "Footprint" "Secoh:D_SOD-123F_hand_soldering"
-			(at 78.74 66.04 0)
+			(at 80.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 66.04 0)
+			(at 80.01 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2931,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 66.04 0)
+			(at 80.01 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +3123,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 57.15 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2931,7 +3150,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 76.2 0)
+			(at 58.674 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 76.2 0)
+			(at 58.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 76.2 0)
+			(at 58.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:Optos/PC817B")
+		(lib_id "Secoh:Optos/PC817B")
 		(at 212.09 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3016,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" "Secoh:APC-817-SL"
-			(at 212.09 73.66 0)
+			(at 212.598 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3262,7 @@
 			)
 		)
 		(property "Value2" "PC817 Igain=1.5m"
-			(at 212.09 73.66 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3271,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 212.09 73.66 0)
+			(at 221.234 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3280,7 @@
 			)
 		)
 		(property "Sim.Params" "model=\"PC817B\""
-			(at 212.09 73.66 0)
+			(at 212.598 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3310,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 36.83 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3108,7 +3327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "3.3k"
 			(at 39.7002 64.4652 0)
 			(effects
 				(font
@@ -3118,7 +3337,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 36.83 58.42 0)
+			(at 38.354 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 58.42 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 58.42 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 227.33 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3275,7 +3494,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 227.33 86.36 0)
+			(at 239.268 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 86.36 0)
+			(at 232.41 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 86.36 0)
+			(at 232.41 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,8 +3554,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
-		(at 45.72 77.47 0)
+		(lib_id "Secoh:Zener/MMBZ52_SOT-23")
+		(at 36.83 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3344,7 +3563,7 @@
 		(dnp no)
 		(uuid "9c503367-4408-40ce-9788-cc59798c8c89")
 		(property "Reference" "D4"
-			(at 43.6626 85.4202 0)
+			(at 41.148 73.66 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -3353,7 +3572,7 @@
 			)
 		)
 		(property "Value" "Zener-16V-SOT23"
-			(at 38.8112 88.265 0)
+			(at 41.148 75.692 0)
 			(effects
 				(font
 					(size 1.0668 1.0668)
@@ -3362,7 +3581,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 50.8 74.93 0)
+			(at 44.45 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 77.47 0)
+			(at 38.1 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3599,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 45.72 77.47 0)
+			(at 38.1 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3608,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 45.72 77.47 0)
+			(at 36.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3617,7 @@
 			)
 		)
 		(property "Sim.Params" "model=\"2SCR587D3\""
-			(at 45.72 77.47 0)
+			(at 36.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 142.24 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3452,7 +3671,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 142.24 62.23 0)
+			(at 143.764 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 62.23 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3689,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 62.23 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 142.24 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3629,7 +3848,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 142.24 76.2 0)
+			(at 143.764 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 76.2 0)
+			(at 143.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 76.2 0)
+			(at 143.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:diode")
+		(lib_id "Secoh:SOD-123/Diode")
 		(at 129.54 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3787,7 +4006,7 @@
 			)
 		)
 		(property "Footprint" "Secoh:D_SOD-123F_hand_soldering"
-			(at 129.54 49.53 0)
+			(at 130.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +4015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 49.53 0)
+			(at 130.81 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +4024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 49.53 0)
+			(at 130.81 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +4066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ltspice:res")
+		(lib_id "Secoh:0805/R")
 		(at 68.58 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3864,7 +4083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "2.2k"
 			(at 64.516 82.55 0)
 			(effects
 				(font
@@ -3874,7 +4093,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 68.58 76.2 0)
+			(at 70.104 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 76.2 0)
+			(at 69.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4111,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 76.2 0)
+			(at 69.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
