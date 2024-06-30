@@ -677,7 +677,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "D*Bridge* D*Rectifier*")
 		(path "/54ac355d-a0fc-42a7-957e-33e26669c79c")
 		(sheetname "Root")
 		(sheetfile "z-input.kicad_sch")

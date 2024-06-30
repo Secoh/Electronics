@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "S:\\Electronics\\RuggedLogic\\24V_Z_vs_Rail_to_MCU_digital_input\\kicad\\z-input\\z-input.kicad_sch")
-    (date "2024-06-28T17:21:02-0700")
+    (date "2024-06-30T01:51:46-0700")
     (tool "Eeschema 8.0.3")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -44,11 +44,9 @@
         (field (name "Footprint") "Package_TO_SOT_SMD:SOT-143_Handsoldering")
         (field (name "Datasheet"))
         (field (name "Description") "Diode bridge, +ve/AC/-ve/AC"))
-      (libsource (lib "Device") (part "D_Bridge_+A-A") (description "Diode bridge, +ve/AC/-ve/AC"))
+      (libsource (lib "Secoh") (part "D-Bridge/BGX50A_SOT-143") (description ""))
       (property (name "Sheetname") (value "Root"))
       (property (name "Sheetfile") (value "z-input.kicad_sch"))
-      (property (name "ki_keywords") (value "rectifier ACDC"))
-      (property (name "ki_fp_filters") (value "D*Bridge* D*Rectifier*"))
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "54ac355d-a0fc-42a7-957e-33e26669c79c"))
     (comp (ref "D3")
@@ -282,12 +280,11 @@
         (field (name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
         (field (name "Datasheet"))
         (field (name "Description") "NPN transistor, base/collector/emitter"))
-      (libsource (lib "Device") (part "Q_NPN_BCE") (description "NPN transistor, base/collector/emitter"))
+      (libsource (lib "Secoh") (part "NPN/BCP5616Q") (description ""))
       (property (name "Sim.Device") (value "SPICE"))
       (property (name "Sim.Params") (value "model=\"2SCR587D3\""))
       (property (name "Sheetname") (value "Root"))
       (property (name "Sheetfile") (value "z-input.kicad_sch"))
-      (property (name "ki_keywords") (value "transistor NPN"))
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "af633f88-2a2c-4c3d-96a1-0e09f36e3bf5"))
     (comp (ref "U1")
@@ -356,36 +353,6 @@
         (pin (num "3") (name "Pin_3") (type "passive"))
         (pin (num "4") (name "Pin_4") (type "passive"))
         (pin (num "5") (name "Pin_5") (type "passive"))))
-    (libpart (lib "Device") (part "D_Bridge_+A-A")
-      (description "Diode bridge, +ve/AC/-ve/AC")
-      (docs "~")
-      (footprints
-        (fp "D*Bridge*")
-        (fp "D*Rectifier*"))
-      (fields
-        (field (name "Reference") "D")
-        (field (name "Value") "D_Bridge_+A-A")
-        (field (name "Footprint"))
-        (field (name "Datasheet") "~")
-        (field (name "Description") "Diode bridge, +ve/AC/-ve/AC"))
-      (pins
-        (pin (num "1") (name "+") (type "passive"))
-        (pin (num "2") (name "") (type "passive"))
-        (pin (num "3") (name "-") (type "passive"))
-        (pin (num "4") (name "") (type "passive"))))
-    (libpart (lib "Device") (part "Q_NPN_BCE")
-      (description "NPN transistor, base/collector/emitter")
-      (docs "~")
-      (fields
-        (field (name "Reference") "Q")
-        (field (name "Value") "Q_NPN_BCE")
-        (field (name "Footprint"))
-        (field (name "Datasheet") "~")
-        (field (name "Description") "NPN transistor, base/collector/emitter"))
-      (pins
-        (pin (num "1") (name "B") (type "input"))
-        (pin (num "2") (name "C") (type "passive"))
-        (pin (num "3") (name "E") (type "passive"))))
     (libpart (lib "Secoh") (part "0805/LED")
       (fields
         (field (name "Reference") "D")
@@ -406,6 +373,29 @@
       (pins
         (pin (num "1") (name "") (type "passive"))
         (pin (num "2") (name "") (type "passive"))))
+    (libpart (lib "Secoh") (part "D-Bridge/BGX50A_SOT-143")
+      (fields
+        (field (name "Reference") "D")
+        (field (name "Value"))
+        (field (name "Footprint") "Package_TO_SOT_SMD:SOT-143_Handsoldering")
+        (field (name "Datasheet"))
+        (field (name "Description")))
+      (pins
+        (pin (num "1") (name "+") (type "passive"))
+        (pin (num "2") (name "") (type "passive"))
+        (pin (num "3") (name "-") (type "passive"))
+        (pin (num "4") (name "") (type "passive"))))
+    (libpart (lib "Secoh") (part "NPN/BCP5616Q")
+      (fields
+        (field (name "Reference") "T")
+        (field (name "Value"))
+        (field (name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+        (field (name "Datasheet"))
+        (field (name "Description")))
+      (pins
+        (pin (num "1") (name "B") (type "input"))
+        (pin (num "2") (name "C") (type "passive"))
+        (pin (num "3") (name "E") (type "passive"))))
     (libpart (lib "Secoh") (part "Optos/PC817B")
       (fields
         (field (name "Reference") "D5")
@@ -445,8 +435,6 @@
   (libraries
     (library (logical "Connector")
       (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Connector.kicad_sym"))
-    (library (logical "Device")
-      (uri "C:\\Program Files\\KiCad\\8.0\\share\\kicad\\symbols\\/Device.kicad_sym"))
     (library (logical "Secoh")
       (uri "D:/Customize/KiCad/Secoh.kicad_sym")))
   (nets
